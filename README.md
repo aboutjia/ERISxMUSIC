@@ -9,7 +9,7 @@
 
 ꜱᴛʀɪɴɢ ɴᴀᴍᴇ:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-brown)](https://replit.com/@DarkXstar-xd/TRISHAxMUSIC#main.py)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-brown)](https://replit.com/@DarkXstar-xd/STRING-GENERATOR#main.py)
 
 
 
