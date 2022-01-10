@@ -27,21 +27,21 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❰𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🥀❱", url="https://t.me/Masuum_bache"
+                        "❰𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🥀❱", url="https://t.me/Empire_Of_Besties"
                     )]
             ]
         ),
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command("Esport") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("Support") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
       await message.reply_text("""**𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾🥀 𝐎𝐧𝐥𝐢𝐧𝐞\n🌠@BlackStorm_Owner 🥀**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁❤️", url="https://t.me/Masuum_bache")
+                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁❤️", url="https://t.me/Empire_Of_Besties")
                 ]
             ]
         )
