@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ Qᴜᴇᴇɴ 𝙓 ᴀʟɪꜱʜᴀ ❱...**")
+    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙓 𝙈𝙐𝙎𝙄𝘾 ❱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -106,7 +106,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Esport_MusicX"
+        user.first_name = "TRISHAxMUSIC_BOT"
     usar = user
     wew = usar.id
     try:
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝐀𝐝 𝐌𝐞 😎 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💫  𝐅𝐢𝐫𝐬𝐭 ❰ Qᴜᴇᴇɴ 𝙓 ᴀʟɪꜱʜᴀ🥀 ❱</b>")
+                        "<b>𝐀𝐝𝐝 𝐌𝐞 😎 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💫  𝐅𝐢𝐫𝐬𝐭 ❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙓 𝙈𝙐𝙎𝙄𝘾 ❱</b>")
                     return
 
                 try:
@@ -130,12 +130,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ @Itz_VeNom_xD ❤️🥀 :) ")
+                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ @BlackStorm_owner ❤️🥀 :) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ @Itz_VeNom_xD ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ @BlackStorm_owner ❤️🥀 </i>")
         return
     
     audio = (
@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/006da7a40b81bd6cb2840.png"
+        thumb_name = "https://telegra.ph/file/0f6f8a8a5ad69fe5ecf3d.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -163,21 +163,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Pubglovers_shayri_lovers")
+                            url=f"https://t.me/Tenacious_Feelings")
                ],
                [
                     InlineKeyboardButton(
                             text="𝐊𝐢𝐧𝐠 🤴",
-                            url=f"https://t.me/Itz_Venom_xD"),
+                            url=f"https://t.me/BlackStorm_Owner"),
                             
                     InlineKeyboardButton(
-                            text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/candy_626")
+                            text="𝐆𝐫𝐨𝐮𝐩 ⭐",
+                            url=f"https://t.me/Bestie_Empire")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/Shayri_Music_Lovers")
+                            text="𝐀𝐝𝐝 𝐁𝐨𝐭 𝐭𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩",
+                            url=f"https://t.me/TrishaXmusic_bot?startgroup=true")
                    
                 ]
             ]
@@ -216,21 +216,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/puhglovers_shayri_lovers")
+                            url=f"https://t.me/Tenacious_Feelings")
                ],
                [
                     InlineKeyboardButton(
                             text="𝐊𝐢𝐧𝐠 🤴",
-                            url=f"https://t.me/Itz_Venom_xD"),
+                            url=f"https://t.me/BlackStorm_Owner"),
                             
                     InlineKeyboardButton(
-                            text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/candy_626")
+                            text="𝐆𝐫𝐨𝐮𝐩 ⭐",
+                            url=f"https://t.me/bestie_empire")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/Shayri_Music_Lovers")
+                            text="𝐀𝐝𝐝 𝐁𝐨𝐭 𝐭𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩",
+                            url=f"https://t.me/TrishaXmusic_bot?startgroup=true")
                    
                 ]
             ]
@@ -238,29 +238,28 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/006da7a40b81bd6cb2840.png"
+            thumb_name = "https://telegra.ph/file/0f6f8a8a5ad69fe5ecf3d.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
-            [
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/pubglovers_shayri_lovers")
+                            url=f"https://t.me/Tenacious_Feelings")
                ],
                [
                     InlineKeyboardButton(
                             text="𝐊𝐢𝐧𝐠 🤴",
-                            url=f"https://t.me/Itz_Venom_xD"),
+                            url=f"https://t.me/BlackStorm_Owner"),
                             
                     InlineKeyboardButton(
-                            text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/candy_626")
+                            text="𝐆𝐫𝐨𝐮𝐩 ⭐",
+                            url=f"https://t.me/bestie_empire")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/Shayri_Music_Lovers")
+                            text="𝐀𝐝𝐝 𝐁𝐨𝐭 𝐭𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩",
+                            url=f"https://t.me/TrishaXmusic_bot?startgroup=true")
                    
                 ]
             ]
@@ -279,7 +278,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
             )
-        await lel.edit("**🎵 𝐀𝐥𝐢𝐬𝐡𝐚 𝐈𝐬 🔊 𝐑𝐞𝐚𝐝𝐲 𝐓𝐨 𝐅𝐮𝐜𝐤 👅 𝐓𝐡𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🥀**")
+        await lel.edit("**🎵 𝙏𝙍𝙄𝙎𝙃𝘼 𝐈𝐬 🔊 𝐑𝐞𝐚𝐝𝐲 𝐓𝐨 𝐅𝐮𝐜𝐤 👅 𝐓𝐡𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🥀**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -310,25 +309,24 @@ async def play(_, message: Message):
             return
 
         keyboard = InlineKeyboardMarkup(
-            [
-                [
+             [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/pubglovers_shayri_lovers")
+                            url=f"https://t.me/Tenacious_Feelings")
                ],
                [
                     InlineKeyboardButton(
                             text="𝐊𝐢𝐧𝐠 🤴",
-                            url=f"https://t.me/Itz_Venom_xD"),
+                            url=f"https://t.me/BlackStorm_Owner"),
                             
                     InlineKeyboardButton(
-                            text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/candy_626")
+                            text="𝐆𝐫𝐨𝐮𝐩 ⭐",
+                            url=f"https://t.me/bestie_empire")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/Shayri_Music_Lovers")
+                            text="𝐀𝐝𝐝 𝐁𝐨𝐭 𝐭𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩",
+                            url=f"https://t.me/TrishaXmusic_bot?startgroup=true")
                    
                 ]
             ]
@@ -350,7 +348,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ Qᴜᴇᴇɴ 𝙓 ᴀʟɪꜱʜᴀ🥀 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="****❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾🥀 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +365,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ Qᴜᴇᴇɴ 𝙓 ᴀʟɪꜱʜᴀ🥀 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🎶 `{}`...**".format(
+            caption="**❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🎶 `{}`...**".format(
         message.chat.title
         ), )
 
