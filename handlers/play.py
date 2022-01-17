@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾 ❱...**")
+    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰𝙀𝙍𝙄𝙎𝙭𝙈𝙐𝙎𝙄𝘾❱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝐀𝐝𝐝 𝐌𝐞 😎 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💫  𝐅𝐢𝐫𝐬𝐭 ❰𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾🥀 ❱</b>")
+                        "<b>𝐀𝐝𝐝 𝐌𝐞 😎 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💫  𝐅𝐢𝐫𝐬𝐭 ❰𝙀𝙍𝙄𝙎𝙭𝙈𝙐𝙎𝙄𝘾🥀❱</b>")
                     return
 
                 try:
@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/e19b8354d514e9c72c9fe.jpg"
+        thumb_name = "https://telegra.ph/file/42c74255939067d42eb89.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -163,21 +163,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Tenacious_Feelings")
+                            url=f"https://t.me/ERISxBOTS")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝐊𝐢𝐧𝐠 🤴",
+                            text="𝙊𝙒𝙉𝙀𝙍🤴",
                             url=f"https://t.me/BlackStorm_owner"),
                             
                     InlineKeyboardButton(
-                            text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/ssasybeb")
+                            text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏⭐",
+                            url=f"https://t.me/ERISxCHAT")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/Bestie_Empire")
+                            url=f"https://t.me/SWEETBUDDIESCLUB")
                    
                 ]
             ]
@@ -216,21 +216,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Tenacious_Feelings")
+                            url=f"https://t.me/erisXbots")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝐊𝐢𝐧𝐠 🤴",
+                            text="𝙊𝙒𝙉𝙀𝙍 🤴",
                             url=f"https://t.me/blackstorm_owner"),
                             
                     InlineKeyboardButton(
-                            text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/ssasybeb")
+                            text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏⭐",
+                            url=f"https://t.me/erisXchat")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/bestie_emp")
+                            url=f"https://t.me/sweetbuddiesclub")
                    
                 ]
             ]
@@ -238,29 +238,29 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/e19b8354d514e9c72c9fe.jpg"
+            thumb_name = "https://telegra.ph/file/42c74255939067d42eb89.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
-            [
+              [
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Tenacious_Feelings")
+                            url=f"https://t.me/erisXbots")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝐊𝐢𝐧𝐠 🤴",
+                            text="𝙊𝙒𝙉𝙀𝙍 🤴",
                             url=f"https://t.me/blackstorm_owner"),
                             
                     InlineKeyboardButton(
-                            text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/ssasybeb")
+                            text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏⭐",
+                            url=f"https://t.me/erisXchat")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/bestie_empire")
+                            url=f"https://t.me/sweetbuddiesclub")
                    
                 ]
             ]
@@ -279,7 +279,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
             )
-        await lel.edit("**🎵  𝙏𝙍𝙄𝙎𝙃𝘼  𝐈𝐬 🔊 𝐑𝐞𝐚𝐝𝐲 𝐓𝐨 𝐅𝐮𝐜𝐤 👅 𝐓𝐡𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🥀**")
+        await lel.edit("**🎵𝙀𝙍𝙄𝙎𝙭𝙈𝙐𝙎𝙄𝘾🎵 𝐈𝐬 🔊 𝐑𝐞𝐚𝐝𝐲 𝐓𝐨 𝐅𝐮𝐜𝐤 👅 𝐓𝐡𝐞 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 🥀**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -310,25 +310,25 @@ async def play(_, message: Message):
             return
 
         keyboard = InlineKeyboardMarkup(
-            [
+               [
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥀",
-                            url=f"https://t.me/Tenacious_Feelings")
+                            url=f"https://t.me/erisXbots")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝐊𝐢𝐧𝐠 🤴",
+                            text="𝙊𝙒𝙉𝙀𝙍 🤴",
                             url=f"https://t.me/blackstorm_owner"),
                             
                     InlineKeyboardButton(
-                            text="𝐐𝐮𝐞𝐞𝐧 👸",
-                            url=f"https://t.me/ssasybeb")
+                            text="𝙎𝙐𝙋𝙋𝙊𝙍𝙏⭐",
+                            url=f"https://t.me/erisXchat")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 ⭐",
-                            url=f"https://t.me/bestie_empire")
+                            url=f"https://t.me/sweetbuddiesclub")
                    
                 ]
             ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾🥀 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="****❰𝙀𝙍𝙄𝙎𝙭𝙈𝙐𝙎𝙄𝘾🥀❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ 𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🎶 `{}`...**".format(
+            caption="**❰𝙀𝙍𝙄𝙎𝙭𝙈𝙐𝙎𝙄𝘾🥀❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🎶 `{}`...**".format(
         message.chat.title
         ), )
 
