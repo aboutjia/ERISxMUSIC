@@ -11,7 +11,7 @@ async def start(_, message: Message):
     
     await message.reply_text(
         f"""**
-𝐇𝐞𝐥𝐥𝐨 𝐈 𝐀𝐦🥀🎶 𝐓𝐑𝐈𝐒𝐇𝐀 𝐱 𝐌𝐔𝐒𝐈𝐂🧚‍♀️ \n𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 🥀 𝐕𝐜 𝐌𝐮𝐬𝐢𝐜 💫 𝐏𝐥𝐚𝐲𝐞𝐫 🌎 𝐁𝐨𝐭 𝐅𝐨𝐫 \n𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 ❤️ 𝐑𝐮𝐧 𝐎𝐧 🎧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 😎 𝐕𝐩𝐬 𝐒𝐞𝐫𝐯𝐞𝐫 \n⭐️𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 [٭〖𓆩𝗖𝗨𝗧𝗘 𝐊𝐈𝐍𝐆 ᵀᴹ𓆪〗٭](https://t.me/BLACKSTORM_OWNER)**
+𝙃𝙚𝙡𝙡𝙤 𝙄'𝙢🥀🎶 𝙀𝙧𝙞𝙨 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧♀️ \nᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ꜱᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ ꜰᴇᴀᴛᴜʀᴇꜱ\n⭐️𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 [٭〖𓆩𝗖𝗨𝗧𝗘 𝐊𝐈𝐍𝐆 ᵀᴹ𓆪〗٭](https://t.me/BLACKSTORM_OWNER)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -20,14 +20,14 @@ async def start(_, message: Message):
                         "❰𝗢𝘄𝗻𝗲𝗿🤴❱", url="https://t.me/BlackStorm_Owner")
                   ],[
                     InlineKeyboardButton(
-                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁🌎❱", url="https://t.me/Empire_Of_Besties"
+                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁🌎❱", url="https://t.me/ERISxCHAT"
                     ),
                     InlineKeyboardButton(
-                        "❰𝗚𝗿𝗼𝘂𝗽🚩❱", url="https://t.me/Empire_Of_Besties"
+                        "❰𝗚𝗿𝗼𝘂𝗽🚩❱", url="https://t.me/ERISxCHAT"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❰𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🥀❱", url="https://t.me/Empire_Of_Besties"
+                        "❰𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩🥀❱", url="https://t.me/SweetBuddiesClub"
                     )]
             ]
         ),
@@ -36,12 +36,12 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("Support") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**𝙏𝙍𝙄𝙎𝙃𝘼 𝙭 𝙈𝙐𝙎𝙄𝘾🥀 𝐎𝐧𝐥𝐢𝐧𝐞\n🌠@BlackStorm_Owner 🥀**""",
+      await message.reply_text("""**𝙀𝙍𝙄𝙎𝙭𝙈𝙐𝙎𝙄𝘾🥀 𝐎𝐧𝐥𝐢𝐧𝐞\n🌠@BlackStorm_Owner 🥀**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁❤️", url="https://t.me/Empire_Of_Besties")
+                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁❤️", url="https://t.me/ERISxCHAT")
                 ]
             ]
         )
